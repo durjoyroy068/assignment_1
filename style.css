@@ -109,8 +109,10 @@ main section{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     gap: 100px; 
     padding: 20px 0;
+    margin: 0;
 }
 
 .join-text {
@@ -118,7 +120,6 @@ main section{
     font-size: 30px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
-    padding: 0;
 }
 
 .join-section {
@@ -129,14 +130,16 @@ main section{
 
 .join-item h1 {
     color: rgba(78, 71, 255, 1);
-    font-size: 36px;
+    font-size: 80px;
     font-weight: bold;
-    margin: 0 0 10px 0;
+     margin-bottom: 10px;
+  
     
 }
 .join-item p{
     color: rgba(0, 0, 0, 0.5);
     font-size: 18px;
+    margin-top: 0;
 }
 
 /* user style */

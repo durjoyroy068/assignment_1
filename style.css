@@ -128,3 +128,55 @@ main section{
     color: rgba(0, 0, 0, 0.5);
     font-size: 18px;
 }
+
+/* user style */
+ .user-text {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px; /* Adds space between items */
+    padding: 24px;
+    margin-top: 50px;
+    border-radius: 14px;
+    
+}
+.container-items {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(39, 38, 38, 0.25);
+  gap: 24px;
+   
+}
+.item-content-text{
+ align-content: center;
+}
+
+.item-content-text p {
+  color:rgba(179, 179, 179, 1)
+}
+.item-content-text h4 {
+  color: rgba(117, 117, 117, 1);
+}
+.item-content {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+.item-des{
+  font-size: 14px;
+}
+.item-text{
+  font-weight: 500;
+}
+.item-image{
+    border-radius: 50px;
+}

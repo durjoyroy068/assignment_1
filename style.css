@@ -63,7 +63,7 @@ font-family: "Inter", sans-serif;
   /* action style */
 
   main{
-    max-width: 1140px;
+    max-width: 1050px;
     margin: 0 auto;
   
 }
@@ -91,4 +91,40 @@ main section{
     font-size: 20px;
     color:rgba(37, 36, 50, 0.5) ;
     margin: 23px 0;
+}
+
+
+/* join style */
+.join-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; 
+    padding: 20px 0;
+}
+
+.join-text {
+    text-align: center;  
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+    padding: 0;
+}
+
+.join-section {
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 20px 15px;
+}
+
+.join-item h1 {
+    color: rgba(78, 71, 255, 1);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    
+}
+.join-item p{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
 }
